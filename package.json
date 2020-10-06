@@ -1,8 +1,6 @@
 {
   "name": "sm",
   "homepage": "http://zeylei.github.io/sm",
-   "scripts": {
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
