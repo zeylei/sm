@@ -406,7 +406,7 @@ class Keyboard extends Component {
     onChange(e) {
         this.setState({ value: e.target.value })
         let v = e.target.value;
-        v = v.replace(/[a-z|\ ]+/ig, "");
+        v = v.replace(/[a-z|\ |;|,|.|/]+/ig, "");
         this.props.onInput(v);
     }
 
