@@ -6,13 +6,13 @@
     if(s.length == 1){
       return s.toUpperCase();
     } else {
-      return xnheMap[s];
+      return smMap[s];
     }
   }
 
-  parseXnhe(){
-    let dict_xnhe = {};
-    let dict_xnhe2 = {
+  parseSm(){
+    let dict_sm = {};
+    let dict_sm2 = {
     };
 
     for (let key in Dict){
@@ -36,7 +36,7 @@
           }
         }
       }
-      dict_xnhe[key] = this.spxh(s)+this.spxh(m);
+      dict_sm[key] = this.spxh(s)+this.spxh(m);
     }
-      console.log(JSON.stringify(dict_xnhe));
+      console.log(JSON.stringify(dict_sm));
   }

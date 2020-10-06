@@ -11,8 +11,6 @@ class Right extends Component {
                     <NavLink exact to="/grade" activeClassName="active" className="list-group-item">成绩</NavLink>
                     <NavLink exact to="/config" activeClassName="active" className="list-group-item">设置</NavLink>
                     <NavLink exact activeClassName="active" className="list-group-item" to="/help" >关于</NavLink>
-                    <ListGroupItem tag="a" href="https://github.com/garfeng/xnhe">Github</ListGroupItem>
-                    <ListGroupItem tag="a" href="http://www.flypy.com/">小鹤双拼</ListGroupItem>
                 </ListGroup>
             </div>
         );

@@ -11,7 +11,6 @@ class GNavbar extends Component {
           <NavLink exact className="btn btn-outline-primary btn-sm" activeClassName="disabled" to="/grade" >成绩</NavLink>{" "}
           <NavLink exact className="btn btn-outline-primary btn-sm" activeClassName="disabled" to="/config" >设置</NavLink>{" "}
           <NavLink exact className="btn btn-outline-primary btn-sm" activeClassName="disabled" to="/help" >关于</NavLink>{" "}
-          <a className="btn btn-outline-primary btn-sm" href="http://www.flypy.com/">小鹤双拼</a>
         </CardBody>
       </Card>
     );
@@ -28,8 +27,6 @@ class GNavbar extends Component {
           <NavItem>
             <NavLink exact className="nav-link" activeClassName="active" to="/config" >设置</NavLink>
           </NavItem>
-          <a className="nav-link" href="https://github.com/garfeng/xnhe#练习方法" >帮助</a>{" "}
-          <a className="nav-link" href="http://www.flypy.com/">小鹤</a>
         </Nav>
       </Navbar>
     );
